@@ -43,9 +43,9 @@ def group(values: tp.List[T], n: int) -> tp.List[tp.List[T]]:
     [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
     """
     answer = []
-    for i in range (n)
-    answer.append(values[i*n: (i + 1)*n])
-    return answer
+    for i in range (n):
+        answer.append(values[i*n: (i + 1)*n])
+        return answer
 
 
 def get_row(grid: tp.List[tp.List[str]], pos: tp.Tuple[int, int]) -> tp.List[str]:
